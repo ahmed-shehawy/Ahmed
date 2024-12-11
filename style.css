@@ -1,0 +1,313 @@
+*{
+    padding: 0px;
+    margin: 5px;
+}
+
+
+  
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(114, 63, 1);
+}
+
+/* Header  */
+Header {
+text-align: center;
+    padding: 10px;
+   color:rgb(255, 255, 255);
+
+}
+
+Header h1{
+    text-align: center;
+    font-size: 45px;
+      font-weight: 900;
+      margin-bottom: 5px;
+}
+Header p{
+    text-align: center;
+    font-size: 30px;
+      font-weight: 900;
+      margin-bottom: 5px;
+    color: rgb(255, 183, 16);
+
+}
+
+Header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.social-icons a{
+    color: rgb(255, 183, 0);
+    margin: 5px;
+    font-size: 27px;
+    transition: ease .3s;
+}
+.social-icons a:hover {
+    color: rgb(255, 255, 254);
+    margin: 5px;
+    font-size: 29px;
+}
+
+/* About  */
+
+.about {
+    padding: 20px;
+    background-color: rgb(114, 63, 1);
+    border-radius: 10px;
+    max-width: 4000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+     border: 1px solid black;
+ 
+  }
+
+  .about h2 {
+    text-align: center;
+    font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: white;
+  }
+
+  .about p {
+    font-size: 20px;
+    line-height: 1.5;
+    color:rgb(255, 183, 0) ;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .info {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .info label {
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+  }
+
+  .info span a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;  
+    text-decoration: none;
+  }
+
+ 
+/* Project */
+  
+
+.pj {
+    padding: 20px;
+    background-color: rgb(114, 63, 1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .pj h2 {
+    text-align: center;
+    font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: white;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+  }
+
+  .project {
+ 
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .project img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+ margin: 0px;
+
+    
+  }
+
+  .project h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+
+  .project p {
+    font-size: 14px;
+    color: #d6ab12;
+    margin: 10px 0 15px;
+  }
+
+  .project button {
+    background-color: #ffb700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .project button:hover {
+    background-color: #ffa726;
+  }
+
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+    /*Contact  */
+.contact{
+    text-align: center;
+}
+.contact h2{
+    text-align: center;
+    font-size: 40px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: rgb(255, 255, 255);
+}
+.contact img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2px;
+  
+}
+
+
+
+.forms{
+   
+   width: 480px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 460px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px ;
+
+}
+
+   
+  
+    .form-control{
+        width:400px;
+        height: 40px;
+        padding: 4px;
+        margin: 5px;
+       color: #000;
+       border-radius:  10px ;
+       border: none;
+      
+      
+        
+    }
+#text{
+    height: 200px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    border-radius:  10px ;
+    background-color:  rgb(255, 183, 0);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    transition: ease .3s;
+}
+.btn:hover{
+   
+    width: 160px;
+    
+    background-color:  rgb(255, 255, 255);
+    
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+  }
+
+  .form-control.error {
+    border-color: red;
+  }
+
+
+/* شاشات الهواتف الذكية */
+@media (max-width: 767px)
+ {
+   
+    .about, .pj, .contact {
+        padding: 15px;
+        margin: 10px;
+    }
+    .about h2, .pj h2, .contact h2 {
+        font-size: 30px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+    .about label, .about span {
+        font-size: 16px;
+    }
+
+    .forms {
+        width: 94%;
+        margin-left: 0;
+    }
+    .form-control {
+        width: 90%;
+        height: 35px;
+    }
+    .btn {
+        width: 120px;
+    }
+ 
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        
+    }
+    .container img{
+        width: 100%;
+    }
+    .project {
+        width: 90%;
+        margin: 15px 0;
+    }
+
+
+
+}
